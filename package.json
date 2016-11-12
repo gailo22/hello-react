@@ -1,0 +1,27 @@
+{
+  "name": "hello-react",
+  "version": "1.0.0",
+  "description": "Webpack and react",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --content-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gailo22/hello-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gailo22/hello-react/issues"
+  },
+  "homepage": "https://github.com/gailo22/hello-react#readme"
+}
